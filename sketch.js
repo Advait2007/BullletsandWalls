@@ -63,7 +63,7 @@ function draw() {
   background(80,80,80); 
  
 
-  myBullet.sprite.collide(myWall.sprite,setWallColor());
+  myBullet.sprite.collide(myWall.sprite,setWallColor);
   
  
   drawSprites();
